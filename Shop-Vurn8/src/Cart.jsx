@@ -8,7 +8,7 @@ const Cart = () => {
     const[list, setList] = useState([])
     const [price, setPrice] = useState(0)
     const database = getDatabase(app)
-    const listInDb = ref(database, "cart")
+    const listInDb = ref(database, "YOUR_DATABASE_NAME")
 
 
    const calculateTotalPrice = () => {
@@ -29,7 +29,7 @@ const Cart = () => {
 
     const deleteProduct = (productId) => {
         // Remove the item from the database based on the product ID
-        remove(ref(database, `cart/${productId}`));
+        remove(ref(database, `YOUR_DATABASE_NAME/${productId}`));
         // alert("removed from cart")
     };
     
