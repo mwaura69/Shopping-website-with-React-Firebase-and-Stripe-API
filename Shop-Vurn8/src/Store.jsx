@@ -26,7 +26,7 @@ const Store = () => {
 
     
     const database = getDatabase(app)
-    const listInDb = ref(database, "cart")
+    const listInDb = ref(database, "YOUR_DATABASE_NAME")
     
 
     const addToCart = (storeImage,storeTitle,storePrice,storeDescription, id) => {  
