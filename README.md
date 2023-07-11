@@ -11,4 +11,4 @@ make sure to create the server.js file outside the folder shop-vurn8 and initial
 
 ## Website
 
-Visit the Website [here](https://curtis.netlify.app/)
+Visit the Website [here](https://shopify9.netlify.app/)
